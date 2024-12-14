@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Bootstrap Layout</title>
+    <!-- Bootstrap CSS -->
+    <link text-white href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link text-white rel="stylesheet" href="/style.css">
+    <link text-white rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+    <style>
+       
+    </style>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#003d99">
+        <div class="container">
+            <a class="navbar-brand" href="#">Technology</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Product</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Product 1</a></li>
+                            <li><a class="dropdown-item" href="#">Product 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero d-flex align-items-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Welcome to our TECHNOLOGY</h1>
+            <p class="lead">The technology spans multiple sectors, enhancing quality of life, improving efficiency, and driving innovation.</p>
+            <a href="#" class="border border-primary p-2 rounded text-white text-decoration-none">Get Started</a>
+        </div>
+    </section>
+    </div>
+    <!-- product -->
+    <section>
+        <div class="container my-4">
+            <h2 class="mb-4">Responsive Layout</h2>
+            <div class="row">
+                <!-- Column 1 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card text-center w-100 h-100 overflow-hidden">
+                        <img src="./img/job1.jpg" class="card-img-top w-100 h-75" alt="Sample Image">
+                        <div class="card-body">
+                            <p class="card-text">Sample text for Column 1. This text fits within the card layout.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 2 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card text-center w-100 h-100 overflow-hidden">
+                        <img src="./img/job2.jpg" class="card-img-top w-100 h-75" alt="Sample Image">
+                        <div class="card-body">
+                            <p class="card-text">Sample text for Column 2. This text fits within the card layout.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 3 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card text-center w-100 h-100 overflow-hidden">
+                        <img src="./img/job.jpg" class="card-img-top w-100 h-75" alt="Sample Image">
+                        <div class="card-body">
+                            <p class="card-text">Sample text for Column 3. This text fits within the card layout.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 4 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card text-center w-100 h-100 overflow-hidden">
+                        <img src="./img/job1.jpg" class="card-img-top w-100 h-75" alt="Sample Image">
+                        <div class="card-body">
+                            <p class="card-text">Sample text for Column 4. This text fits within the card layout.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="features-section">
+        <div class="container-fluid">
+             <div class="row justify-content-center">
+                <div class="col-md-3 col-sm-6 feature-item text-white">
+                    <div class="feature-icon"> <i class="fas fa-truck"></i></div>
+                    <h6>Delivery Service</h6>
+                    <p>Free delivery on order $100</p>
+                </div>
+                 <div class="col-md-3 col-sm-6 feature-item text-white">
+                   <div class="feature-icon"><i class="fas fa-lock"></i></div>
+                    <h6>100% Payment Secure</h6>
+                    <p>Secure payment credit cards</p>
+                </div>
+                  <div class="col-md-3 col-sm-6 feature-item text-white">
+                   <div class="feature-icon"><i class="fas fa-sync-alt"></i></div>
+                    <h6>14 Days Easy Return</h6>
+                    <p>Product built to exchanges</p>
+                </div>
+                 <div class="col-md-3 col-sm-6 feature-item text-white">
+                   <div class="feature-icon"><i class="fas fa-headset"></i></div>
+                    <h6>24/7 Friendly Support</h6>
+                    <p>Our support 7 days week</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container my-4">
+            <h2 class="mb-4">Responsive Layout</h2>
+            <div class="row">
+                <!-- Column 1 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card text-center w-100 h-100 overflow-hidden">
+                        <img src="./img/job1.jpg" class="card-img-top w-100 h-75" alt="Sample Image">
+                        <div class="card-body">
+                            <p class="card-text">Sample text for Column 1. This text fits within the card layout.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 2 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card text-center w-100 h-100 overflow-hidden">
+                        <img src="./img/job2.jpg" class="card-img-top w-100 h-75" alt="Sample Image">
+                        <div class="card-body">
+                            <p class="card-text">Sample text for Column 2. This text fits within the card layout.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 3 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card text-center w-100 h-100 overflow-hidden">
+                        <img src="./img/job.jpg" class="card-img-top w-100 h-75" alt="Sample Image">
+                        <div class="card-body">
+                            <p class="card-text">Sample text for Column 3. This text fits within the card layout.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 4 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card text-center w-100 h-100 overflow-hidden">
+                        <img src="./img/job1.jpg" class="card-img-top w-100 h-75" alt="Sample Image">
+                        <div class="card-body">
+                            <p class="card-text">Sample text for Column 4. This text fits within the card layout.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container my-4">
+            <h2 class="mb-4">Responsive Layout</h2>
+            <div class="row">
+                <!-- Column 1 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card text-center w-100 h-100 overflow-hidden">
+                        <img src="./img/job1.jpg" class="card-img-top w-100 h-75" alt="Sample Image">
+                        <div class="card-body">
+                            <p class="card-text">Sample text for Column 1. This text fits within the card layout.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 2 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card text-center w-100 h-100 overflow-hidden">
+                        <img src="./img/job2.jpg" class="card-img-top w-100 h-75" alt="Sample Image">
+                        <div class="card-body">
+                            <p class="card-text">Sample text for Column 2. This text fits within the card layout.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 3 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card text-center w-100 h-100 overflow-hidden">
+                        <img src="./img/job.jpg" class="card-img-top w-100 h-75" alt="Sample Image">
+                        <div class="card-body">
+                            <p class="card-text">Sample text for Column 3. This text fits within the card layout.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 4 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card text-center w-100 h-100 overflow-hidden">
+                        <img src="./img/job1.jpg" class="card-img-top w-100 h-75" alt="Sample Image">
+                        <div class="card-body">
+                            <p class="card-text">Sample text for Column 4. This text fits within the card layout.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0">
+                      <img src="https://images.pexels.com/photos/2526081/pexels-photo-2526081.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Tree Image" class="img-fluid about-image">
+                </div>
+                <div class="col-md-6">
+                    <h3>Our Story</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae dolor vel dui fermentum iaculis. Phasellus malesuada tincidunt eros, a eleifend ante convallis sit amet. Integer et lorem vel odio dapibus blandit ut sit amet orci. Aenean ultricies felis ut dolor malesuada, ut scelerisque elit bibendum.
+                    </p>
+                    <p>
+                        Donec at felis sit amet nulla varius laoreet. Morbi a justo non enim placerat cursus a ac leo. Cras malesuada turpis sit amet nunc tristique auctor. Nullam ut ipsum in leo varius volutpat. Donec facilisis magna id neque cursus hendrerit.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Container for contact and map -->
+    <div class="container mt-3" id="Contact">
+      <!-- Contact Form Section -->
+      <h2 class=" mb-4">Contact Us</h2>
+      <div class="row">
+          <div class="col-12 col-md-6">
+              <form>
+                  <!-- Name input -->
+                  <div class="mb-3">
+                      <label for="name" class="form-label">Full Name</label>
+                      <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+                  </div>
+
+                  <!-- Email input -->
+                  <div class="mb-3">
+                      <label for="email" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                  </div>
+
+                  <!-- Message textarea -->
+                  <div class="mb-3">
+                      <label for="message" class="form-label">Message</label>
+                      <textarea class="form-control" id="message" rows="5" placeholder="Write your message here" required></textarea>
+                  </div>
+
+                  <!-- Submit button -->
+                  <button type="submit" class="btn btn-primary w-25">Send Message</button>
+              </form>
+          </div>
+
+          <!-- Google Map Section -->
+          <div class="col-12 col-md-6 mt-4 mt-md-0">
+                <div class="map-responsive">
+                  <!-- Embed Google Map -->
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d237774.1777173652!2d104.72537307966745!3d11.579317637201523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109513dc76a6be3%3A0x9c010ee85ab525bb!2z4Z6X4Z-S4Z6T4Z-G4Z6W4Z-B4Z6J!5e1!3m2!1skm!2skh!4v1733737599726!5m2!1skm!2skh" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+          </div>
+      </div>
+    </div>
+    <div class="container mt-3" id="Reviews">
+      <h2 class=" mb-4">Customer Reviews</h2>
+      <div class="row">
+          <!-- Review 1 -->
+          <div class="col-12 col-sm-6 col-md-3 mb-4">
+              <div class="card shadow-sm">
+                  <div class="card-body d-flex flex-column align-items-center">
+                      <img src="../IMG/portrait-cute.avif" class="w-25 h-25 rounded-circle mb-3" alt="John Doe">
+                      <h5 class="card-title text-center">John Doe</h5>
+                      <p class="card-text text-center">"Fantastic service and the product works as expected. Highly recommend!"</p>
+                  </div>
+              </div>
+          </div>
+          <!-- Review 2 -->
+          <div class="col-12 col-sm-6 col-md-3 mb-4">
+              <div class="card shadow-sm">
+                  <div class="card-body d-flex flex-column align-items-center">
+                      <img src="../IMG/portrait-cute.avif" class="w-25 h-25 rounded-circle mb-3" alt="Jane Smith">
+                      <h5 class="card-title text-center">Jane Smith</h5>
+                      <p class="card-text text-center">"Fantastic service and the product works as expected. Highly recommend!"</p>
+                  </div>
+              </div>
+          </div>
+          <!-- Review 3 -->
+          <div class="col-12 col-sm-6 col-md-3 mb-4">
+              <div class="card shadow-sm">
+                  <div class="card-body d-flex flex-column align-items-center">
+                      <img src="../IMG/portrait-cute.avif" class="w-25 h-25 rounded-circle mb-3" alt="Mark Johnson">
+                      <h5 class="card-title text-center">Mark Johnson</h5>
+                      <p class="card-text text-center">"Fantastic service and the product works as expected. Highly recommend!"</p>
+                  </div>
+              </div>
+          </div>
+          <!-- Review 4 -->
+          <div class="col-12 col-sm-6 col-md-3 mb-4">
+              <div class="card shadow-sm">
+                  <div class="card-body d-flex flex-column align-items-center">
+                      <img src="../IMG/portrait-cute.avif" class="w-25 h-25 rounded-circle mb-3" alt="Emily White">
+                      <h5 class="card-title text-center">Emily White</h5>
+                      <p class="card-text text-center">"Fantastic service and the product works as expected. Highly recommend!"</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div> 
+    <footer class=" py-4 text-dark">
+        <div class="container text-white">
+          <div class="row">
+            <!-- Technology Section -->
+            <div class="col-md-3 mb-4">
+              <h5 class="fw-bold mb-3">Technology</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat temporibus.</p>
+              <div>
+                <a href="#" class="text-success me-2 fs-5 text-white"><i class="fab fa-facebook-f border border-primary rounded-circle p-2"></i></a>
+                <a href="#" class="text-success me-2 fs-5 text-white"><i class="fab fa-twitter border border-primary rounded-circle p-2"></i></a>
+                <a href="#" class="text-success me-2 fs-5 text-white"><i class="fab fa-linkedin-in border border-primary rounded-circle p-2"></i></a>
+                <a href="#" class="text-success fs-5"><i class="fab text-white fa-youtube border border-primary rounded-circle p-2"></i></a>
+              </div>
+            </div>
+            <!-- Quick Links Section -->
+            <div class="col-md-3 mb-4">
+              <h5 class="fw-bold mb-3">Quick Links</h5>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="#" class="text-dark text-decoration-none text-white" onmouseover="this.style.color='#15a387'" onmouseout="this.style.color='#000000'">&raquo; About Us</a></li>
+                <li class="mb-2"><a href="#" class="text-dark text-decoration-none text-white" onmouseover="this.style.color='#15a387'" onmouseout="this.style.color='#000000'">&raquo; Contact</a></li>
+                <li class="mb-2"><a href="#" class="text-dark text-decoration-none text-white" onmouseover="this.style.color='#15a387'" onmouseout="this.style.color='#000000'">&raquo; Blog</a></li>
+                <li class="mb-2"><a href="#" class="text-dark text-decoration-none text-white" onmouseover="this.style.color='#15a387'" onmouseout="this.style.color='#000000'">&raquo; FAQs</a></li>
+              </ul>
+            </div>
+      
+            <!-- Service Section -->
+            <div class="col-md-3 mb-4">
+              <h5 class="fw-bold mb-3">Service</h5>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="#" class="text-dark text-decoration-none text-white" onmouseover="this.style.color='#15a387'" onmouseout="this.style.color='#000000'">&raquo; Best Seller</a></li>
+                <li class="mb-2"><a href="#" class="text-dark text-decoration-none text-white" onmouseover="this.style.color='#15a387'" onmouseout="this.style.color='#000000'">&raquo; Product</a></li>
+                <li class="mb-2"><a href="#" class="text-dark text-decoration-none text-white" onmouseover="this.style.color='#15a387'" onmouseout="this.style.color='#000000'">&raquo; Student</a></li>
+                <li class="mb-2"><a href="#" class="text-dark text-decoration-none text-white" onmouseover="this.style.color='#15a387'" onmouseout="this.style.color='#000000'">&raquo; FAQs</a></li>
+              </ul>
+            </div>
+      
+            <!-- Contact Section -->
+            <div class="col-md-3">
+              <h5 class="fw-bold mb-3">Contact</h5>
+              <ul class="list-unstyled">
+                <li><i class="fas fa-map-marker-alt me-2"></i>Phnom Penh</li>
+                <li><i class="fas fa-phone me-2"></i>(+855) 010 666 653</li>
+                <li><i class="fas fa-envelope me-2"></i>example@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+          <hr class="mt-4">
+          <div class="row">
+            <div class="col-md-6">
+              <p class="mb-0">&copy; 2024 Technology. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <a href="#" class="text-dark text-decoration-none me-3 text-white" onmouseover="this.style.color='#15a387'" onmouseout="this.style.color='#000000'">Terms</a>
+              <a href="#" class="text-dark text-decoration-none      text-white" onmouseover="this.style.color='#15a387'" onmouseout="this.style.color='#000000'">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
